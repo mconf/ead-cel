@@ -1,0 +1,39 @@
+Relatorio da análise de desempenho da ampliação/redução da largura e da altura do vídeo via ffmpeg e via opengl:
+Em um vídeo (captura de tela) sendo enviado a 11fps, 256kbps, 720x480, gop = 12, juntamente com audio 128kbps.
+
+AMPLIAÇÃO COM FFMPEG:
+ampliando para 854x480:
+taxa de frames de exibição = 9fps.
+numero de frames exibidos em 30 segundos: 250.
+efeito visual: movendo uma janela na area de trabalho rapidamente, a imagem ficou distorcida no aparelho
+efeito colateral no áudio: nenhum, o áudio continuou com boa qualidade.
+avaliação geral: péssimo, pois ele descartou 80 frames em 30 segundos (pois deveriam ter sido exibidos 330 frames).
+
+AMPLIAÇÃO COM OPENGL:
+ampliando para 854x480:
+taxa de frames de exibição = 10fps.
+numero de frames exibidos em 30 segundos: 300.
+efeito visual: movendo uma janela na area de trabalho rapidamente, a imagem continuou boa no aparelho
+efeito colateral no áudio: sim, o áudio ficou com algumas falhas
+avaliação geral: ruim, pois ele descartou 30 frames em 30 segundos. A função updateframe leva 50ms para executar. Sem ampliação leva apenas 8ms.
+
+REDUÇÃO COM FFMPEG:
+reduzindo para 360x240:
+taxa de frames da exibição = 11fps
+efeito visual: nenhum problema percebido.
+efeito colateral no áudio: nenhum, o áudio continuou com boa qualidade.
+avaliação geral: viável, porém necessita avaliação de desempenho mais profunda.
+
+REDUÇÃO COM OPENGL:
+reduzindo para 360x240:
+taxa de frames da exibição = 11fps
+efeito visual: nenhum problema percebido.
+efeito colateral no áudio: nenhum, o áudio continuou com boa qualidade.
+avaliação geral: viável, porém necessita avaliação de desempenho mais profunda.
+
+CONCLUSÃO:
+AMPLIAÇÃO: a melhor opção é utilizar opengl. Mesmo assim, o desempenho não foi bom. Idéia: pesquisar outro método eficiente de ampliação/redução.
+REDUÇÃO: tanto OPENGL como FFMPEG conseguiram exibir o vídeo com a taxa de frames original. Comparar os dois mais profundamente.
+
+
+

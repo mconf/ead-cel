@@ -1,0 +1,12 @@
+set solib-search-path /home/giancarlo/workspace/eadcel2.1testesansung/bin/ndk/local/armeabi
+directory /home/giancarlo/android-ndk-r4-crystax/build/platforms/android-5/arch-arm/usr/include
+directory /home/giancarlo/workspace/eadcel2.1testesansung/jni
+directory /home/giancarlo/workspace/eadcel2.1testesansung/jni
+directory /home/giancarlo/workspace/eadcel2.1testesansung/jni
+directory /home/giancarlo/workspace/eadcel2.1testesansung/jni
+directory /home/giancarlo/workspace/eadcel2.1testesansung/jni
+directory /home/giancarlo/workspace/eadcel2.1testesansung/jni
+directory /home/giancarlo/workspace/eadcel2.1testesansung/jni
+directory /home/giancarlo/workspace/eadcel2.1testesansung/jni
+directory /home/giancarlo/workspace/eadcel2.1testesansung/jni
+directory /home/giancarlo/workspace/eadcel2.1testesansung/jni

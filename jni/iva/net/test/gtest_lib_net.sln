@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual C++ Express 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gtest_fileTransferClient", "gtest_fileTransferClient.vcproj", "{AD9E5FEC-BB73-434C-B3CF-E4DACC6DEE67}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gtest_fileTransferServer", "gtest_fileTransferServer.vcproj", "{533F68F5-D7A3-45C9-94E2-490CA51DA159}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gtest_lib_net", "gtest_lib_net.vcproj", "{EFE23746-FC43-47E0-AD3E-E0EABA624CD4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gtest_NetStorage", "gtest_NetStorage.vcproj", "{6C836EDA-0EF7-49EA-B6F0-5AD58B42C7E9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gtest_NetRecv", "gtest_NetRecv.vcproj", "{D3D583F1-4264-4248-83D6-EEDE14F3B80F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gtest_NetSend", "gtest_NetSend.vcproj", "{81B9D1D6-9826-44ED-9D17-26DBD7CA626F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD9E5FEC-BB73-434C-B3CF-E4DACC6DEE67}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AD9E5FEC-BB73-434C-B3CF-E4DACC6DEE67}.Debug|Win32.Build.0 = Debug|Win32
+		{AD9E5FEC-BB73-434C-B3CF-E4DACC6DEE67}.Release|Win32.ActiveCfg = Release|Win32
+		{AD9E5FEC-BB73-434C-B3CF-E4DACC6DEE67}.Release|Win32.Build.0 = Release|Win32
+		{533F68F5-D7A3-45C9-94E2-490CA51DA159}.Debug|Win32.ActiveCfg = Debug|Win32
+		{533F68F5-D7A3-45C9-94E2-490CA51DA159}.Debug|Win32.Build.0 = Debug|Win32
+		{533F68F5-D7A3-45C9-94E2-490CA51DA159}.Release|Win32.ActiveCfg = Release|Win32
+		{533F68F5-D7A3-45C9-94E2-490CA51DA159}.Release|Win32.Build.0 = Release|Win32
+		{EFE23746-FC43-47E0-AD3E-E0EABA624CD4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EFE23746-FC43-47E0-AD3E-E0EABA624CD4}.Debug|Win32.Build.0 = Debug|Win32
+		{EFE23746-FC43-47E0-AD3E-E0EABA624CD4}.Release|Win32.ActiveCfg = Release|Win32
+		{EFE23746-FC43-47E0-AD3E-E0EABA624CD4}.Release|Win32.Build.0 = Release|Win32
+		{6C836EDA-0EF7-49EA-B6F0-5AD58B42C7E9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6C836EDA-0EF7-49EA-B6F0-5AD58B42C7E9}.Debug|Win32.Build.0 = Debug|Win32
+		{6C836EDA-0EF7-49EA-B6F0-5AD58B42C7E9}.Release|Win32.ActiveCfg = Release|Win32
+		{6C836EDA-0EF7-49EA-B6F0-5AD58B42C7E9}.Release|Win32.Build.0 = Release|Win32
+		{D3D583F1-4264-4248-83D6-EEDE14F3B80F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D3D583F1-4264-4248-83D6-EEDE14F3B80F}.Debug|Win32.Build.0 = Debug|Win32
+		{D3D583F1-4264-4248-83D6-EEDE14F3B80F}.Release|Win32.ActiveCfg = Release|Win32
+		{D3D583F1-4264-4248-83D6-EEDE14F3B80F}.Release|Win32.Build.0 = Release|Win32
+		{81B9D1D6-9826-44ED-9D17-26DBD7CA626F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{81B9D1D6-9826-44ED-9D17-26DBD7CA626F}.Debug|Win32.Build.0 = Debug|Win32
+		{81B9D1D6-9826-44ED-9D17-26DBD7CA626F}.Release|Win32.ActiveCfg = Release|Win32
+		{81B9D1D6-9826-44ED-9D17-26DBD7CA626F}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

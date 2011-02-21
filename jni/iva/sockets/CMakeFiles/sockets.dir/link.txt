@@ -1,0 +1,2 @@
+/usr/bin/ar cr libsockets.a  CMakeFiles/sockets.dir/Igmp.cpp.o CMakeFiles/sockets.dir/IgmpSender.cpp.o CMakeFiles/sockets.dir/IgmpPcap.cpp.o CMakeFiles/sockets.dir/NetworkInformation_linux.cpp.o CMakeFiles/sockets.dir/NetworkInformation.cpp.o CMakeFiles/sockets.dir/Socket.cpp.o CMakeFiles/sockets.dir/SocketCtx.cpp.o CMakeFiles/sockets.dir/SocketRaw.cpp.o CMakeFiles/sockets.dir/SocketException.cpp.o CMakeFiles/sockets.dir/SocketTCP.cpp.o CMakeFiles/sockets.dir/SocketUDP.cpp.o CMakeFiles/sockets.dir/SocketWrapper.cpp.o
+/usr/bin/ranlib libsockets.a

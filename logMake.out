@@ -1,0 +1,19 @@
+Gdbserver      : [arm-eabi-4.4.0] /home/giancarlo/workspace/eadcel2.1testesansung/libs/armeabi/gdbserver
+Gdbsetup       : /home/giancarlo/workspace/eadcel2.1testesansung/libs/armeabi/gdb.setup
+Gdbsetup       : + source directory /home/giancarlo/workspace/eadcel2.1testesansung/jni
+Gdbsetup       : + source directory /home/giancarlo/workspace/eadcel2.1testesansung/jni
+Gdbsetup       : + source directory /home/giancarlo/workspace/eadcel2.1testesansung/jni
+Gdbsetup       : + source directory /home/giancarlo/workspace/eadcel2.1testesansung/jni
+Gdbsetup       : + source directory /home/giancarlo/workspace/eadcel2.1testesansung/jni
+Gdbsetup       : + source directory /home/giancarlo/workspace/eadcel2.1testesansung/jni
+Gdbsetup       : + source directory /home/giancarlo/workspace/eadcel2.1testesansung/jni
+Gdbsetup       : + source directory /home/giancarlo/workspace/eadcel2.1testesansung/jni
+Gdbsetup       : + source directory /home/giancarlo/workspace/eadcel2.1testesansung/jni
+Gdbsetup       : + source directory /home/giancarlo/workspace/eadcel2.1testesansung/jni
+Compile++ thumb: eadcel <= /home/giancarlo/workspace/eadcel2.1testesansung/jni/eadcel.cpp
+Compile++ thumb: eadcel <= /home/giancarlo/workspace/eadcel2.1testesansung/jni/eadcelnative/opengl.cpp
+Compile++ thumb: eadcel <= /home/giancarlo/workspace/eadcel2.1testesansung/jni/eadcelnative/bench.cpp
+Compile++ thumb: eadcel <= /home/giancarlo/workspace/eadcel2.1testesansung/jni/eadcelnative/convert.cpp
+Compile++ thumb: eadcel <= /home/giancarlo/workspace/eadcel2.1testesansung/jni/eadcelnative/params.cpp
+SharedLibrary  : libeadcel.so
+Install        : libeadcel.so => /home/giancarlo/workspace/eadcel2.1testesansung/libs/armeabi

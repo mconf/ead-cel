@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+  
+	
+	<TextView
+	android:id="@+id/txtViewIPsend"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"	
+	android:text="IP address to send video:"
+	/>
+	
+	<EditText
+	android:id="@+id/eTxtIPsend"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:inputType="text"
+	android:layout_below="@+id/txtViewIPsend"
+	android:text="143.54.132.96"
+	/>
+	
+	<TextView
+	android:id="@+id/txtViewVideoPortsend"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"	
+	android:text="Video Port:"
+	android:layout_below="@+id/eTxtIPsend"
+	/>
+	
+	<EditText
+	android:id="@+id/eTxtVideoPortSend"
+	android:layout_width="100dp"
+	android:layout_height="wrap_content"
+	android:inputType="number"
+	android:layout_below="@+id/txtViewVideoPortsend"
+	android:text="12001"
+	/>
+	
+	<TextView
+	android:id="@+id/txtViewAudioPortsend"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"	
+	android:text="Audio Port:"
+	android:layout_below="@+id/eTxtVideoPortSend"
+	/>
+	
+	<EditText
+	android:id="@+id/eTxtAudioPortSend"
+	android:layout_width="100dp"
+	android:layout_height="wrap_content"
+	android:inputType="number"
+	android:layout_below="@+id/txtViewAudioPortsend"
+	android:text="12002"
+	/>
+	
+	<Button
+       android:id="@+id/buttonIPsend"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Start video/audio"
+       android:layout_below="@+id/eTxtAudioPortSend"
+	/>
+	<Button
+       android:id="@+id/buttonIPsendVideo"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Start video"
+       android:layout_below="@+id/eTxtAudioPortSend"
+       android:layout_toRightOf="@+id/buttonIPsend"
+	/>
+	<Button
+       android:id="@+id/buttonIPsendAudio"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Start audio"
+       android:layout_below="@+id/eTxtAudioPortSend"
+       android:layout_toRightOf="@+id/buttonIPsendVideo"
+	/>
+  
+  
+</RelativeLayout>

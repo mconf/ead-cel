@@ -1,0 +1,17 @@
+LOG da execução da decodificação de um arquivo de vídeo com ffmpeg e exibição no aparelho com opengl:
+
+V/Java: onDrawFrame()(  876): Terminou o video. Comecando de novo...
+D/(ffmpeg_decode.cpp)initFFMPEG(  876): >>> Stream de vídeo
+D/(ffmpeg_decode.cpp)initFFMPEG(  876): Base de tempo da stream 0: 1/90000
+D/(ffmpeg_decode.cpp)initFFMPEG(  876): >>> Stream de áudio
+D/(ffmpeg_decode.cpp)initFFMPEG(  876): Base de tempo da stream 1: 1/8000
+V/Java: onDrawFrame()(  876): Frames/s = 60
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  876): VIDEO:
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  876): Frames decodificados = 1132
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  876): Tempo total = 4991.76ms
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  876): Tempo medio = 4.41ms
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  876): Tempo maximo = 20.73ms
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  876): Tempo minimo = 2.29ms
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  876): Frames decodificados/s = 227
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  876): Operação concluída
+V/Java: onDrawFrame()(  876): Terminou o video. Comecando de novo...

@@ -1,0 +1,268 @@
+Log do teste das 2 alternativas de audio com as duas de video combinadas
+video utilizado = /sdcard/d.mp4
+video: 176x144, h263, 15fps
+audio: bitrate 64kbps, 44100hz, mono, mp2
+
+RETURN: 
+0 = nao retorna para o java para desenhar
+1 = retorna para o java para desenhar
+AUDIO:
+0 = abordagem antiga
+1 = abordagem nova
+BYTE0SHORT1:
+0 = guarda os dados do som num array de 8bits por posicao
+1 = guarda os dados do som num array de 16bits por posicao
+
+Teste1:
+RETURN = 0
+AUDIO = 0
+BYTE0SHORT1 = 0
+ReferenceTable overflow (max=512)
+
+Teste2:
+RETURN = 0
+AUDIO = 0
+BYTE0SHORT1 = 1
+ReferenceTable overflow (max=512)
+
+Teste3:
+RETURN = 0
+AUDIO = 1
+BYTE0SHORT1 = 0
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  733): VIDEO (DECODIFICACAO):
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  733): Frames decodificados = 3105
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  733): Tempo total = 27886.50ms
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  733): Tempo medio = 8.98ms
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  733): Tempo maximo = 55.33ms
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  733): Tempo minimo = 3.27ms
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  733): Frames decodificados/s = 111
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  733): VIDEO (DECODIFICACAO + RENDERIZACAO):
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  733): Frames decodificados = 3105
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  733): Tempo total = 63954.67ms
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  733): Tempo medio = 20.60ms
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  733): Tempo maximo = 78.55ms
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  733): Tempo minimo = 8.45ms
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  733): Frames/s = 49
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  733): AUDIO (DECODIFICACAO):
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  733): Frames decodificados = 7842
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  733): Tempo total = 22403.57ms
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  733): Tempo medio = 2.86ms
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  733): Tempo maximo = 32.36ms
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  733): Tempo minimo = 1.71ms
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  733): Frames decodificados/s = 350
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  733): AUDIO (DECODIFICACAO + RENDERIZACAO):
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  733): Frames decodificados = 7842
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  733): Tempo total = 137964.89ms
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  733): Tempo medio = 17.59ms
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  733): Tempo maximo = 155.08ms
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  733): Tempo minimo = 2.10ms
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  733): Frames/s = 57
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  733): VIDEO+AUDIO (DECODIFICACAO):
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  733): Frames decodificados = 10947
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  733): Tempo total = 50290.08ms
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  733): Tempo medio = 4.59ms
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  733): Tempo maximo = 55.33ms
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  733): Tempo minimo = 1.71ms
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  733): Frames de video decodificados/s = 62
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  733): Frames de audio decodificados/s = 156
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  733): Frames de video+audio decodificados/s = 218
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  733): VIDEO+AUDIO (DECODIFICACAO + RENDERIZACAO):
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  733): Frames decodificados = 10947
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  733): Tempo total = 201919.56ms
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  733): Tempo medio = 18.45ms
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  733): Tempo maximo = 155.08ms
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  733): Tempo minimo = 2.10ms
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  733): Frames de video/s = 15
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  733): Frames de audio/s = 39
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  733): Frames de video+audio/s = 54
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  733): Operação concluída
+
+Teste4:
+RETURN = 0
+AUDIO = 1
+BYTE0SHORT1 = 1
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  763): VIDEO (DECODIFICACAO):
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  763): Frames decodificados = 3105
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  763): Tempo total = 27517.76ms
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  763): Tempo medio = 8.86ms
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  763): Tempo maximo = 73.89ms
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  763): Tempo minimo = 2.99ms
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  763): Frames decodificados/s = 113
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  763): VIDEO (DECODIFICACAO + RENDERIZACAO):
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  763): Frames decodificados = 3105
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  763): Tempo total = 64464.93ms
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  763): Tempo medio = 20.76ms
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  763): Tempo maximo = 83.11ms
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  763): Tempo minimo = 7.82ms
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  763): Frames/s = 48
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  763): AUDIO (DECODIFICACAO):
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  763): Frames decodificados = 7842
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  763): Tempo total = 28123.25ms
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  763): Tempo medio = 3.59ms
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  763): Tempo maximo = 125.71ms
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  763): Tempo minimo = 2.09ms
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  763): Frames decodificados/s = 279
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  763): AUDIO (DECODIFICACAO + RENDERIZACAO):
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  763): Frames decodificados = 7842
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  763): Tempo total = 136956.82ms
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  763): Tempo medio = 17.46ms
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  763): Tempo maximo = 148.59ms
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  763): Tempo minimo = 2.49ms
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  763): Frames/s = 57
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  763): VIDEO+AUDIO (DECODIFICACAO):
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  763): Frames decodificados = 10947
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  763): Tempo total = 55641.02ms
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  763): Tempo medio = 5.08ms
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  763): Tempo maximo = 125.71ms
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  763): Tempo minimo = 2.09ms
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  763): Frames de video decodificados/s = 56
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  763): Frames de audio decodificados/s = 141
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  763): Frames de video+audio decodificados/s = 197
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  763): VIDEO+AUDIO (DECODIFICACAO + RENDERIZACAO):
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  763): Frames decodificados = 10947
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  763): Tempo total = 201421.75ms
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  763): Tempo medio = 18.40ms
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  763): Tempo maximo = 148.59ms
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  763): Tempo minimo = 2.49ms
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  763): Frames de video/s = 15
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  763): Frames de audio/s = 39
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  763): Frames de video+audio/s = 54
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  763): Operação concluída
+
+Teste5:
+RETURN = 1
+AUDIO = 0
+BYTE0SHORT1 = 0
+funciona mas o GC interrompe toda hora causando falhas no audio
+
+Teste6:
+RETURN = 1
+AUDIO = 0
+BYTE0SHORT1 = 1
+funciona mas o GC interrompe toda hora causando falhas no audio
+
+Teste7:
+RETURN = 1
+AUDIO = 1
+BYTE0SHORT1 = 0
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  848): VIDEO (DECODIFICACAO):
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  848): Frames decodificados = 3105
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  848): Tempo total = 30385.85ms
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  848): Tempo medio = 9.79ms
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  848): Tempo maximo = 128.54ms
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  848): Tempo minimo = 2.98ms
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  848): Frames decodificados/s = 102
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  848): VIDEO (DECODIFICACAO + RENDERIZACAO):
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  848): Frames decodificados = 3105
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  848): Tempo total = 69391.66ms
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  848): Tempo medio = 22.35ms
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  848): Tempo maximo = 145.21ms
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  848): Tempo minimo = 8.46ms
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  848): Frames/s = 45
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  848): AUDIO (DECODIFICACAO):
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  848): Frames decodificados = 7842
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  848): Tempo total = 21762.27ms
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  848): Tempo medio = 2.78ms
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  848): Tempo maximo = 163.78ms
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  848): Tempo minimo = 1.53ms
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  848): Frames decodificados/s = 360
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  848): AUDIO (DECODIFICACAO + RENDERIZACAO):
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  848): Frames decodificados = 7842
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  848): Tempo total = 133376.74ms
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  848): Tempo medio = 17.01ms
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  848): Tempo maximo = 178.25ms
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  848): Tempo minimo = 1.92ms
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  848): Frames/s = 59
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  848): VIDEO+AUDIO (DECODIFICACAO):
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  848): Frames decodificados = 10947
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  848): Tempo total = 52148.12ms
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  848): Tempo medio = 4.76ms
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  848): Tempo maximo = 163.78ms
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  848): Tempo minimo = 1.53ms
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  848): Frames de video decodificados/s = 60
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  848): Frames de audio decodificados/s = 150
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  848): Frames de video+audio decodificados/s = 210
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  848): VIDEO+AUDIO (DECODIFICACAO + RENDERIZACAO):
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  848): Frames decodificados = 10947
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  848): Tempo total = 202768.40ms
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  848): Tempo medio = 18.52ms
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  848): Tempo maximo = 178.25ms
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  848): Tempo minimo = 1.92ms
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  848): Frames de video/s = 15
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  848): Frames de audio/s = 39
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  848): Frames de video+audio/s = 54
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  848): Operação concluída
+
+Teste8:
+RETURN = 1
+AUDIO = 1
+BYTE0SHORT1 = 1
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  877): VIDEO (DECODIFICACAO):
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  877): Frames decodificados = 3105
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  877): Tempo total = 30353.57ms
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  877): Tempo medio = 9.78ms
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  877): Tempo maximo = 72.17ms
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  877): Tempo minimo = 3.53ms
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  877): Frames decodificados/s = 102
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  877): VIDEO (DECODIFICACAO + RENDERIZACAO):
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  877): Frames decodificados = 3105
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  877): Tempo total = 68508.27ms
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  877): Tempo medio = 22.06ms
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  877): Tempo maximo = 141.19ms
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  877): Tempo minimo = 8.41ms
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  877): Frames/s = 45
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  877): AUDIO (DECODIFICACAO):
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  877): Frames decodificados = 7842
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  877): Tempo total = 20503.38ms
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  877): Tempo medio = 2.61ms
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  877): Tempo maximo = 40.29ms
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  877): Tempo minimo = 1.45ms
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  877): Frames decodificados/s = 382
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  877): AUDIO (DECODIFICACAO + RENDERIZACAO):
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  877): Frames decodificados = 7842
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  877): Tempo total = 133213.18ms
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  877): Tempo medio = 16.99ms
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  877): Tempo maximo = 78.74ms
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  877): Tempo minimo = 1.82ms
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  877): Frames/s = 59
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  877): VIDEO+AUDIO (DECODIFICACAO):
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  877): Frames decodificados = 10947
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  877): Tempo total = 50856.95ms
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  877): Tempo medio = 4.65ms
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  877): Tempo maximo = 72.17ms
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  877): Tempo minimo = 1.45ms
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  877): Frames de video decodificados/s = 61
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  877): Frames de audio decodificados/s = 154
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  877): Frames de video+audio decodificados/s = 215
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  877): VIDEO+AUDIO (DECODIFICACAO + RENDERIZACAO):
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  877): Frames decodificados = 10947
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  877): Tempo total = 201721.45ms
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  877): Tempo medio = 18.43ms
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  877): Tempo maximo = 141.19ms
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  877): Tempo minimo = 1.82ms
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  877): Frames de video/s = 15
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  877): Frames de audio/s = 39
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  877): Frames de video+audio/s = 54
+D/(ffmpeg_decode.cpp)ffmpegTestOpenGL(  877): Operação concluída
+
+conclusoes:
+1)
+com AUDIO = 0 e RETURN = 0 ocorre ReferenceTable overflow (max=512)
+com AUDIO = 0 e RETURN = 1 funciona mas o GC interrompe toda hora causando falhas no audio
+Conclusao: opcao AUDIO = 0 descartada
+2)
+com AUDIO 1 e RETURN 0:
+Conclusao: nao percebi nenhuma diferenca na qualidade do audio entre usar short ou byte e a performance tambem foi semelhante.
+3)	
+com AUDIO 1 e RETURN 1:
+Conclusao: nao percebi nenhuma diferenca na qualidade do audio entre usar short ou byte e a performance tambem foi semelhante.
+4)
+Comparando RETURN 0 com RETURN 1:
+Conclusao: nao percebi nenhuma diferenca no desempenho.
+5)
+Conclusao final:
+Opcoes descartadas:
+AUDIO = 0
+Opcoes nao descartadas:
+RETURN 0 ou 1
+BYTE0SHORT1 0 ou 1

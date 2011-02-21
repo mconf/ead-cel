@@ -1,0 +1,240 @@
+
++-------------------------------------------------------------+
+| Nova Sessao [2010/11/12] [17:48:36]                         |
++-------------------------------------------------------------+
+[2010/11/12] [17:48:36] ERROR  : (20005) Configuração de opção do socket: Unknown error
+                                         sockets/Socket.cpp:setreuse:200
+[2010/11/12] [17:48:36] ERROR  : (20005) Configuração de opção do socket: Unknown error
+                                         sockets/SocketTCP.cpp:setkeepalive:63
+[2010/11/12] [17:48:36] ERROR  : (20005) Configuração de opção do socket: Unknown error
+                                         sockets/Socket.cpp:setreuse:200
+[2010/11/12] [17:48:36] ERROR  : (20005) Configuração de opção do socket: Unknown error
+                                         sockets/SocketTCP.cpp:setkeepalive:63
+
++-------------------------------------------------------------+
+| Fim da Sessao [2010/11/12] [17:48:36]                       |
++-------------------------------------------------------------+
+
++-------------------------------------------------------------+
+| Nova Sessao [2010/11/12] [18:07:10]                         |
++-------------------------------------------------------------+
+[2010/11/12] [18:07:10] ERROR  : (20005) Configuração de opção do socket: Unknown error
+                                         sockets/Socket.cpp:setreuse:200
+[2010/11/12] [18:07:10] ERROR  : (20005) Configuração de opção do socket: Unknown error
+                                         sockets/SocketTCP.cpp:setkeepalive:63
+[2010/11/12] [18:07:10] ERROR  : (20005) Configuração de opção do socket: Unknown error
+                                         sockets/Socket.cpp:setreuse:200
+[2010/11/12] [18:07:10] ERROR  : (20005) Configuração de opção do socket: Unknown error
+                                         sockets/SocketTCP.cpp:setkeepalive:63
+
++-------------------------------------------------------------+
+| Fim da Sessao [2010/11/12] [18:07:10]                       |
++-------------------------------------------------------------+
+
++-------------------------------------------------------------+
+| Nova Sessao [2010/11/12] [18:09:22]                         |
++-------------------------------------------------------------+
+[2010/11/12] [18:09:22] ERROR  : (20005) Configuração de opção do socket: Unknown error
+                                         sockets/Socket.cpp:setreuse:200
+[2010/11/12] [18:09:22] ERROR  : (20005) Configuração de opção do socket: Unknown error
+                                         sockets/SocketTCP.cpp:setkeepalive:63
+[2010/11/12] [18:09:22] ERROR  : (20005) Configuração de opção do socket: Unknown error
+                                         sockets/Socket.cpp:setreuse:200
+[2010/11/12] [18:09:22] ERROR  : (20005) Configuração de opção do socket: Unknown error
+                                         sockets/SocketTCP.cpp:setkeepalive:63
+
++-------------------------------------------------------------+
+| Fim da Sessao [2010/11/12] [18:09:22]                       |
++-------------------------------------------------------------+
+
++-------------------------------------------------------------+
+| Nova Sessao [2010/11/12] [18:12:37]                         |
++-------------------------------------------------------------+
+[2010/11/12] [18:12:37] ERROR  : (20005) Configuração de opção do socket: Unknown error
+                                         sockets/Socket.cpp:setreuse:200
+[2010/11/12] [18:12:37] ERROR  : (20005) Configuração de opção do socket: Unknown error
+                                         sockets/SocketTCP.cpp:setkeepalive:63
+[2010/11/12] [18:12:37] ERROR  : (20005) Configuração de opção do socket: Unknown error
+                                         sockets/Socket.cpp:setreuse:200
+[2010/11/12] [18:12:37] ERROR  : (20005) Configuração de opção do socket: Unknown error
+                                         sockets/SocketTCP.cpp:setkeepalive:63
+
++-------------------------------------------------------------+
+| Fim da Sessao [2010/11/12] [18:12:37]                       |
++-------------------------------------------------------------+
+
++-------------------------------------------------------------+
+| Nova Sessao [2010/11/12] [18:14:36]                         |
++-------------------------------------------------------------+
+[2010/11/12] [18:14:36] ERROR  : (20005) Configuração de opção do socket: Unknown error
+                                         sockets/Socket.cpp:setreuse:200
+[2010/11/12] [18:14:36] ERROR  : (20005) Configuração de opção do socket: Unknown error
+                                         sockets/SocketTCP.cpp:setkeepalive:63
+[2010/11/12] [18:14:36] ERROR  : (20005) Configuração de opção do socket: Unknown error
+                                         sockets/Socket.cpp:setreuse:200
+[2010/11/12] [18:14:36] ERROR  : (20005) Configuração de opção do socket: Unknown error
+                                         sockets/SocketTCP.cpp:setkeepalive:63
+
++-------------------------------------------------------------+
+| Fim da Sessao [2010/11/12] [18:14:36]                       |
++-------------------------------------------------------------+
+
++-------------------------------------------------------------+
+| Nova Sessao [2010/11/12] [18:17:57]                         |
++-------------------------------------------------------------+
+[2010/11/12] [18:17:57] ERROR  : (20005) Configuração de opção do socket: Unknown error
+                                         sockets/Socket.cpp:setreuse:200
+[2010/11/12] [18:17:57] ERROR  : (20005) Configuração de opção do socket: Unknown error
+                                         sockets/SocketTCP.cpp:setkeepalive:63
+[2010/11/12] [18:17:57] ERROR  : (20005) Configuração de opção do socket: Unknown error
+                                         sockets/Socket.cpp:setreuse:200
+[2010/11/12] [18:17:57] ERROR  : (20005) Configuração de opção do socket: Unknown error
+                                         sockets/SocketTCP.cpp:setkeepalive:63
+
++-------------------------------------------------------------+
+| Fim da Sessao [2010/11/12] [18:17:57]                       |
++-------------------------------------------------------------+
+
++-------------------------------------------------------------+
+| Nova Sessao [2010/11/12] [18:18:53]                         |
++-------------------------------------------------------------+
+[2010/11/12] [18:18:53] ERROR  : (20005) Configuração de opção do socket: Unknown error
+                                         sockets/Socket.cpp:setreuse:200
+[2010/11/12] [18:18:53] ERROR  : (20005) Configuração de opção do socket: Unknown error
+                                         sockets/SocketTCP.cpp:setkeepalive:63
+[2010/11/12] [18:18:53] ERROR  : (20005) Configuração de opção do socket: Unknown error
+                                         sockets/Socket.cpp:setreuse:200
+[2010/11/12] [18:18:53] ERROR  : (20005) Configuração de opção do socket: Unknown error
+                                         sockets/SocketTCP.cpp:setkeepalive:63
+
++-------------------------------------------------------------+
+| Fim da Sessao [2010/11/12] [18:18:53]                       |
++-------------------------------------------------------------+
+
++-------------------------------------------------------------+
+| Nova Sessao [2010/11/12] [18:20:41]                         |
++-------------------------------------------------------------+
+[2010/11/12] [18:20:41] ERROR  : (20005) Configuração de opção do socket: Unknown error
+                                         sockets/Socket.cpp:setreuse:200
+[2010/11/12] [18:20:41] ERROR  : (20005) Configuração de opção do socket: Unknown error
+                                         sockets/SocketTCP.cpp:setkeepalive:63
+[2010/11/12] [18:20:41] ERROR  : (20005) Configuração de opção do socket: Unknown error
+                                         sockets/Socket.cpp:setreuse:200
+[2010/11/12] [18:20:41] ERROR  : (20005) Configuração de opção do socket: Unknown error
+                                         sockets/SocketTCP.cpp:setkeepalive:63
+
++-------------------------------------------------------------+
+| Fim da Sessao [2010/11/12] [18:20:41]                       |
++-------------------------------------------------------------+
+
++-------------------------------------------------------------+
+| Nova Sessao [2010/11/12] [18:21:28]                         |
++-------------------------------------------------------------+
+[2010/11/12] [18:21:28] ERROR  : (20005) Configuração de opção do socket: Unknown error
+                                         sockets/Socket.cpp:setreuse:200
+[2010/11/12] [18:21:28] ERROR  : (20005) Configuração de opção do socket: Unknown error
+                                         sockets/SocketTCP.cpp:setkeepalive:63
+[2010/11/12] [18:21:28] ERROR  : (20005) Configuração de opção do socket: Unknown error
+                                         sockets/Socket.cpp:setreuse:200
+[2010/11/12] [18:21:28] ERROR  : (20005) Configuração de opção do socket: Unknown error
+                                         sockets/SocketTCP.cpp:setkeepalive:63
+
++-------------------------------------------------------------+
+| Fim da Sessao [2010/11/12] [18:21:28]                       |
++-------------------------------------------------------------+
+
++-------------------------------------------------------------+
+| Nova Sessao [2010/11/12] [18:36:59]                         |
++-------------------------------------------------------------+
+[2010/11/12] [18:36:59] ERROR  : (20005) Configuração de opção do socket: Unknown error
+                                         sockets/Socket.cpp:setreuse:200
+[2010/11/12] [18:36:59] ERROR  : (20005) Configuração de opção do socket: Unknown error
+                                         sockets/SocketTCP.cpp:setkeepalive:63
+[2010/11/12] [18:36:59] ERROR  : (20005) Configuração de opção do socket: Unknown error
+                                         sockets/Socket.cpp:setreuse:200
+[2010/11/12] [18:36:59] ERROR  : (20005) Configuração de opção do socket: Unknown error
+                                         sockets/SocketTCP.cpp:setkeepalive:63
+
++-------------------------------------------------------------+
+| Fim da Sessao [2010/11/12] [18:36:59]                       |
++-------------------------------------------------------------+
+
++-------------------------------------------------------------+
+| Nova Sessao [2010/11/12] [18:38:00]                         |
++-------------------------------------------------------------+
+[2010/11/12] [18:38:00] ERROR  : (20005) Configuração de opção do socket: Unknown error
+                                         sockets/Socket.cpp:setreuse:200
+[2010/11/12] [18:38:00] ERROR  : (20005) Configuração de opção do socket: Unknown error
+                                         sockets/SocketTCP.cpp:setkeepalive:63
+[2010/11/12] [18:38:00] ERROR  : (20005) Configuração de opção do socket: Unknown error
+                                         sockets/Socket.cpp:setreuse:200
+[2010/11/12] [18:38:00] ERROR  : (20005) Configuração de opção do socket: Unknown error
+                                         sockets/SocketTCP.cpp:setkeepalive:63
+
++-------------------------------------------------------------+
+| Fim da Sessao [2010/11/12] [18:38:00]                       |
++-------------------------------------------------------------+
+
++-------------------------------------------------------------+
+| Nova Sessao [2010/11/12] [18:39:03]                         |
++-------------------------------------------------------------+
+[2010/11/12] [18:39:03] ERROR  : (20005) Configuração de opção do socket: Unknown error
+                                         sockets/Socket.cpp:setreuse:200
+[2010/11/12] [18:39:04] ERROR  : (20006) Socket bind: Address already in use
+                                         sockets/Socket.cpp:bind:98
+
++-------------------------------------------------------------+
+| Fim da Sessao [2010/11/12] [18:39:04]                       |
++-------------------------------------------------------------+
+
++-------------------------------------------------------------+
+| Nova Sessao [2010/11/12] [19:02:06]                         |
++-------------------------------------------------------------+
+[2010/11/12] [19:02:06] ERROR  : (20005) Configuração de opção do socket: Unknown error
+                                         sockets/Socket.cpp:setreuse:200
+[2010/11/12] [19:02:07] ERROR  : (20006) Socket bind: Address already in use
+                                         sockets/Socket.cpp:bind:98
+
++-------------------------------------------------------------+
+| Fim da Sessao [2010/11/12] [19:02:07]                       |
++-------------------------------------------------------------+
+
++-------------------------------------------------------------+
+| Nova Sessao [2010/11/12] [19:06:13]                         |
++-------------------------------------------------------------+
+[2010/11/12] [19:06:13] ERROR  : (20005) Configuração de opção do socket: Unknown error
+                                         sockets/Socket.cpp:setreuse:200
+[2010/11/12] [19:06:13] ERROR  : (20005) Configuração de opção do socket: Unknown error
+                                         sockets/SocketTCP.cpp:setkeepalive:63
+[2010/11/12] [19:06:13] ERROR  : (20005) Configuração de opção do socket: Unknown error
+                                         sockets/Socket.cpp:setreuse:200
+[2010/11/12] [19:06:13] ERROR  : (20005) Configuração de opção do socket: Unknown error
+                                         sockets/SocketTCP.cpp:setkeepalive:63
+
++-------------------------------------------------------------+
+| Fim da Sessao [2010/11/12] [19:06:13]                       |
++-------------------------------------------------------------+
+
++-------------------------------------------------------------+
+| Nova Sessao [2010/11/12] [19:07:07]                         |
++-------------------------------------------------------------+
+[2010/11/12] [19:07:07] ERROR  : (20005) Configuração de opção do socket: Unknown error
+                                         sockets/Socket.cpp:setreuse:200
+[2010/11/12] [19:07:08] ERROR  : (20006) Socket bind: Address already in use
+                                         sockets/Socket.cpp:bind:98
+
++-------------------------------------------------------------+
+| Fim da Sessao [2010/11/12] [19:07:08]                       |
++-------------------------------------------------------------+
+
++-------------------------------------------------------------+
+| Nova Sessao [2010/11/12] [19:08:03]                         |
++-------------------------------------------------------------+
+[2010/11/12] [19:08:03] ERROR  : (20005) Configuração de opção do socket: Unknown error
+                                         sockets/Socket.cpp:setreuse:200
+[2010/11/12] [19:08:04] ERROR  : (20006) Socket bind: Address already in use
+                                         sockets/Socket.cpp:bind:98
+
++-------------------------------------------------------------+
+| Fim da Sessao [2010/11/12] [19:08:04]                       |
++-------------------------------------------------------------+
