@@ -1,3 +1,23 @@
+ENGLISH:
+This repository (ead-cel) contains the EAD@Cel project (version from 25/01/2011)
+This version captures, encodes, transmits, receives, decodes and renders audio and video.
+The EAD@Cel project uses the IVA libs and the FFMPEG libs.
+IMPORTANT: In this repository, the IVA libs, the FFMPEG libs and the EAD@Cel's module aren't compiled. In order to compile them, follow these steps:
+1) Download the NDK from: http://smartctl.net/data/android-ndk-r4-windows-crystax-1.zip
+2) Set the file jni/Application.mk to compile only the FFMPEG's modules, like this:
+APP_MODULES := avutil avcodec avformat swscale
+3) On the command line, go to the ead-cel directory and run ../../android-ndk-r4-crystax/ndk-build
+4) When the compilation ends, copy the ".so" binaries from the libs/armeabi folder to the libsFFMPEG folder
+5) Set the file jni/Application.mk to compile only the IVA's modules, like this:
+APP_MODULES := thread common sockets queue net decode encode
+6) On the command line, go to the ead-cel directory and run ./scriptAndroid.sh
+This command will compile the IVA libs and will copy them to the libsIVA folder
+7) Set the file jni/Application.mk to compile only the EAD@Cel's module, like this:
+APP_MODULES := eadcel
+8) On the command line, go to the ead-cel directory and run ./scriptAndroid.sh
+This command will compile the eadcel module and will copy the FFMPEG libs and the IVA libs (from the libsFFMPEG and libsIVA folders) to the libs/armeabi folder
+
+PORTUGUESE:
 Este repositório (ead-cel) tem o projeto do EAD@Cel na versão que foi fechada em 25/01/2011.
 Esta versão realiza captura, codificação, transmissão, recepção, decodificação e renderização de áudio e vídeo.
 O projeto EAD@Cel utiliza as libs do IVA e as libs do FFMPEG.
@@ -6,7 +26,7 @@ IMPORTANTE: Neste repositório as libs do IVA, as libs do FFMPEG e o módulo do 
 2) Setar o arquivo jni/Application.mk para compilar apenas os módulos do FFMPEG, desta forma:
 APP_MODULES := avutil avcodec avformat swscale
 3) Na linha de comando, estando no diretório ead-cel, executar ../../android-ndk-r4-crystax/ndk-build
-4) Ao final da compilação, copiar os binários “.so” da pasta libs para a pasta libsFFMPEG
+4) Ao final da compilação, copiar os binários ".so" da pasta libs/armeabi para a pasta libsFFMPEG
 5) Setar o arquivo jni/Application.mk para compilar apenas os módulos do IVA, desta forma:
 APP_MODULES := thread common sockets queue net decode encode
 6) Na linha de comando, estando no diretório ead-cel, executar ./scriptAndroid.sh
